@@ -1,0 +1,59 @@
+#corpoform{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 95%
+}
+#formedit input{
+    width: 200px;
+    float: left;
+    border: none;
+    background: transparent;
+    line-height: 50px;
+    height: 50px;
+    color: #8e8e8e;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "News Gothic Oblique";
+}
+#formedit input:focus {
+    outline: none;
+}
+#formedit label
+{
+    padding-left: 10px;
+    font-size: 15px;
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    font-weight: bolder;
+    color: #555;
+}
+#formedit select
+{
+    width: 250px;
+    float: left;
+    border: none;
+    background: white;
+    line-height: 50px;
+    height: 50px;
+    color: #8e8e8e;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "News Gothic Oblique";
+}
+#formedit input:focus{
+    box-shadow: none;
+}
+.infousuarios{
+    width: 430px;
+    margin-right: 20px;
+    float:right;
+    height: 50px;
+    background: white;
+}
